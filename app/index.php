@@ -28,10 +28,10 @@ $app = AppFactory::create();
 
 
 
-//$app->setBasePath('PHP/slim-php-mysql-heroku/app'); 
 
 //LA BASE TIENE QUE EMPEZAR CON '/app' y despues de ahi, viene el resto 
 //de la ruta, por la cual trabajamos, preguntando si tiene esto o lo otro.
+//http://localhost:666/app es el LINK BASE
 $app->setBasePath('/app');  //AGREGO ESTA LINEA.
 
 
